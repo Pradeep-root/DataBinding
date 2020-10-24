@@ -3,12 +3,9 @@ package com.pradeep.android.databinding.model
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.pradeep.android.databinding.app.CountryFlagApplication
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Retrofit
-import java.util.*
 
 class CountryRepositoryImp(private var countryApis: CountryApis = RetrofitRepository().getCountryApis()) : CountryRepository{
 
